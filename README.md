@@ -48,3 +48,5 @@ python video_filtering.py
   booktitle={CVPR}
 }
 ```
+### Contact
+Please contact Jinhui Xiong <jinhui.xiong@kaust.edu.sa> if you have any question or comment.

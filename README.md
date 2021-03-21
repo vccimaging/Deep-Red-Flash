@@ -18,7 +18,7 @@ CVPR 2021 (Oral)
 <strong>Right:</strong> Inputs to our videography pipeline are a sequence of no-flash and flash frames, and the outputs are denoised and would yield temporally stable videos with no frame rate loss.
 
 ### Prerequisite
-python>=3.5 & PyTorch>=1.3 & cuda>=10.0 <br>
+python>=3.7 & PyTorch>=1.3 & cuda>=10.0 <br>
 Minor change on the code if there is compatibility issue.
 
 ## Image Filtering

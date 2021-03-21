@@ -12,10 +12,10 @@ This is the PyTorch code for 2021 CVPR paper "Seeing in Extra Darkness Using a D
 CVPR 2021 (Oral)
 
 <img src='img/teaser.jpg'>
-**Top left:** Human vision uses cones and rods for the perception of light. Photopic vision is associated with cones, occurring at bright-light conditions (over 3 cd/m^2). Scotopic vision is associated with rods, occurring at dim-light conditions (below 10^{-3} cd/m^2). At intermediate light levels, both rods and cones are active, which is called mesopic vision. <br>
-**Bottom left:** We propose to use deep-red (e.g. 660 nm) light as flash for low-light imaging in mesopic light levels. This new flash can be introduced into smartphones with a minor hardware adjustment. <br>
-**Middle:** The eye spectral sensitivity in a dimly lit environment (0.01 cd/m^2) and the relative responses of R, G and B color channels of the camera we used, as well as the emissions spectrum of the red LED. Under dim lighting, rod vision dominates, yet the rods are nearly insensible to deep-red light. Meanwhile, our LED flash can be sensed by the camera especially in the red and green channels. <br>
-**Right:** Inputs to our videography pipeline are a sequence of no-flash and flash frames, and the outputs are denoised and would yield temporally stable videos with no frame rate loss.
+<strong>Top left:</strong> Human vision uses cones and rods for the perception of light. Photopic vision is associated with cones, occurring at bright-light conditions (over 3 cd/m^2). Scotopic vision is associated with rods, occurring at dim-light conditions (below 10^{-3} cd/m^2). At intermediate light levels, both rods and cones are active, which is called mesopic vision. <br>
+<strong>Bottom left:</strong> We propose to use deep-red (e.g. 660 nm) light as flash for low-light imaging in mesopic light levels. This new flash can be introduced into smartphones with a minor hardware adjustment. <br>
+<strong>Middle:</strong> The eye spectral sensitivity in a dimly lit environment (0.01 cd/m^2) and the relative responses of R, G and B color channels of the camera we used, as well as the emissions spectrum of the red LED. Under dim lighting, rod vision dominates, yet the rods are nearly insensible to deep-red light. Meanwhile, our LED flash can be sensed by the camera especially in the red and green channels. <br>
+<strong>Right:</strong> Inputs to our videography pipeline are a sequence of no-flash and flash frames, and the outputs are denoised and would yield temporally stable videos with no frame rate loss.
 
 ### Prerequisite
 python>=3.5 & PyTorch>=1.3 & cuda>=10.0 <br>

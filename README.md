@@ -17,6 +17,10 @@ Bottom left: We propose to use deep-red (e.g. 660 nm) light as flash for low-lig
 Middle: The eye spectral sensitivity in a dimly lit environment (0.01 cd/m^2) and the relative responses of R, G and B color channels of the camera we used, as well as the emissions spectrum of the red LED. Under dim lighting, rod vision dominates, yet the rods are nearly insensible to deep-red light. Meanwhile, our LED flash can be sensed by the camera especially in the red and green channels. <br>
 Right: Inputs to our videography pipeline are a sequence of no-flash and flash frames, and the outputs are denoised and would yield temporally stable videos with no frame rate loss.
 
+### Prerequisite
+python>=3.5 & PyTorch>=1.3 & cuda>=10.0 <br>
+Minor change on the code if there is compatibility issue.
+
 ## Image Filtering
 To test image filtering on our data, we prepared a notebook
 ```
@@ -25,9 +29,22 @@ evaluate.ipynb
 in the [image_filtering](https://github.com/vccimaging/Deep-Red-Flash/tree/main/image_filtering) folder.
 
 ## Video Filtering
-To test video filtering, you need to first install PWC-Net(https://github.com/NVlabs/PWC-Net/tree/master/PyTorch) for flow computation and Temporal Consistency Network(https://github.com/phoenix104104/fast_blind_video_consistency) for enhancing tempotal consistency.
+Change directory to [video_filtering](https://github.com/vccimaging/Deep-Red-Flash/tree/main/video_filtering) folder.
+
+You may download the data for [scene1](https://drive.google.com/file/d/1_e2z7lqQY_FAVdgrVLLkaBjv6h7kCdE2/view?usp=sharing) and [scene2](https://drive.google.com/file/d/1R34WB0lplmCSHWQbvKY6sW3NDAS3g6Bn/view?usp=sharing) for testing. Put the downloaded video to a new created "input" folder.
+
+To test video filtering, you need to first install [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch) for flow computation and [Temporal Consistency Network](https://github.com/phoenix104104/fast_blind_video_consistency) for enhancing tempotal consistency.
 
 After installation, you need to correctly import them (sample code is commented) and run
 ```
 python video_filtering.py
+```
+## Citation
+```
+@inproceedings{xiong2021seeing,
+  title={Seeing in Extra Darkness Using a Deep-red Flash},
+  author={Jinhui Xiong and Jian Wang and Wolfgang Heidrich and Shree Nayar},
+  year={2021},
+  booktitle={CVPR},
+}
 ```

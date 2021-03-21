@@ -31,7 +31,7 @@ in the [image_filtering](https://github.com/vccimaging/Deep-Red-Flash/tree/main/
 ## Video Filtering
 Change directory to [video_filtering](https://github.com/vccimaging/Deep-Red-Flash/tree/main/video_filtering) folder.
 
-You may download the data for [scene1](https://drive.google.com/file/d/1_e2z7lqQY_FAVdgrVLLkaBjv6h7kCdE2/view?usp=sharing) and [scene2](https://drive.google.com/file/d/1R34WB0lplmCSHWQbvKY6sW3NDAS3g6Bn/view?usp=sharing) for testing. Put the downloaded video to a new created "input" folder.
+You may download the data for [scene1](https://drive.google.com/uc?export=download&id=1_e2z7lqQY_FAVdgrVLLkaBjv6h7kCdE2) and [scene2](https://drive.google.com/uc?export=download&id=1R34WB0lplmCSHWQbvKY6sW3NDAS3g6Bn) for testing. Put the downloaded video in a newly created "input" folder.
 
 To test video filtering, you need to first install [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch) for flow computation and [Temporal Consistency Network](https://github.com/phoenix104104/fast_blind_video_consistency) for enhancing tempotal consistency.
 
